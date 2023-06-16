@@ -47,12 +47,17 @@ def  wish_me():
 
     if hour >=0 and hour <12:
         speak("Good Morning")
+        print("Good Morning")
+        
     elif hour>=12 and hour<18:
-        speak(" Good Afternoon")
+        speak("Good Afternoon")
+        print("Good Afternoon")
+        
     else:
         speak("Good Evening")
+        print("Good Evening")
     speak("I am Jarvis, How may I help you?")
-
+    print("I am Jarvis, How may I help you?")
 
 
 def takeCommand(): #it takes speech input and return output
