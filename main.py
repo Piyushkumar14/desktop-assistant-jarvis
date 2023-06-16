@@ -127,13 +127,17 @@ if __name__ == "__main__":
             exit()
 
         elif "vs code".lower() in query.lower():
+            speak('Sure sir')
             os.startfile('C:\\Users\\pr141\\AppData\\Local\\Programs\\Microsoft VS Code\\Code')
 
         elif "pycharm".lower() in query.lower():
+            speak('Sir, pycharm is already open')
             os.startfile('C:\\Users\\Public\\Desktop\\PyCharm Community Edition 2022.3.2.lnk')
 
         elif "data spell".lower() in query.lower():
+            speak('Sure sir')
             os.startfile('C:\\Program Files\\JetBrains\\DataSpell 2023.1\\bin\\dataspell64.exe')
 
         elif "java".lower() in query.lower():
+            speak('Sure sir')
             os.startfile('C:\\Users\\Public\\Desktop\\IntelliJ IDEA Community Edition 2022.3.3.lnk')
